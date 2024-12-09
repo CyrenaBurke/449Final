@@ -94,6 +94,9 @@ async def delete_subscription_plan(plan_id: str):
 @app.get("/api/admin/subscription_plans")
 async def list_subscription_plans():
     plans = await db.subscription_plans.find().to_list(100)
+    # Convert ObjectId to string
+    for plan in plans:
+        plan["_id"] = str(plan["_id"])
     return plans
 
 @app.post("/api/admin/permissions", status_code=201)
