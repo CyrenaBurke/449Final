@@ -12,7 +12,7 @@ import os
 app = FastAPI()
 
 # MongoDB Configuration
-MONGO_URI = "mongodb+srv://cyrenaburke:Msmaraija15@cluster0.sgudd.mongodb.net/"
+MONGO_URI = "mongodb+srv://<username>:<password>@cluster0.sgudd.mongodb.net/"
 client = AsyncIOMotorClient(MONGO_URI)
 db = client.cloud_services
 
