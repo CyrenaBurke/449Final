@@ -103,11 +103,13 @@ View Usage Statistics
 
 Call a Service
 - **Endpoint**: `/api/service/{api_name}`
+
 - **Method**: POST
 - **Request Body**:
   ```json
   {
-      "user_id": "user123",
+      "user_id": "user123",![getuser](https://github.com/user-attachments/assets/6f434b43-eced-456f-946c-a045647a7baf)
+
       "api": "service1"
   }
   ```
@@ -119,4 +121,17 @@ Call a Service
 **Error Handling**
 - **404 Not Found**: Returned when a requested resource does not exist.
 - **403 Forbidden**: Returned when a user attempts to access a restricted resource.
-- **500 Internal Server Error**: Returned for unexpected issues.
+- **500 Internal 
+Server Error**: Returned for unexpected issues.
+![postsub](https://github.com/user-attachments/assets/a8f8ada7-155b-4d2b-a226-4feb8677c219)
+![deleteperm](https://github.com/user-attachments/assets/a7bbc27d-3469-487b-9311-04dfed61d376)
+![putperm](https://github.com/user-attachments/assets/0e8e30fb-2384-4924-b8c4-015b35968bad)
+![getsub](https://github.com/user-attachments/assets/37df5ff8-4989-40d7-a802-72015636b0eb)
+![postapi](https://github.com/user-attachments/assets/f1131797-54f3-4e3f-8257-ca3a92671924)
+![postperm](https://github.com/user-attachments/assets/b5bd0d83-a68e-4f06-97ce-bc3206d80bf3)
+![getperm](https://github.com/user-attachments/assets/57d9be15-cb67-4120-bf5d-4039dfafea67)
+![deleteplans](https://github.com/user-attachments/assets/6f702662-9e99-4736-8fbc-f2a0c9b3e046)
+![putplans](https://github.com/user-attachments/assets/bf4ccda2-08d4-4552-a0bb-bc72dab4489b)
+![postplans](https://github.com/user-attachments/assets/0ee2bae7-822b-44a2-9468-869ca5a6c012)
+![gettplans](https://github.com/user-attachments/assets/dd73fd1d-a0a1-4317-bf39-f5c1377a7a00)
+![gethome](https://github.com/user-attachments/assets/ce80f5bd-5672-4303-98e7-d722b4ce68a5)
