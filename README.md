@@ -124,6 +124,9 @@ Call a Service
 - **500 Internal 
 Server Error**: Returned for unexpected issues.
 
+VIDEO DEMONSTRATION:
+https://adcsuf-my.sharepoint.com/:v:/r/personal/aviyasingh_csu_fullerton_edu/Documents/Attachments/fastapi-swagger-ui_wGugpOl6.mp4?csf=1&web=1&e=yMt6Pb&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D
+
 
 ![postsub](https://github.com/user-attachments/assets/a8f8ada7-155b-4d2b-a226-4feb8677c219)
 ![deleteperm](https://github.com/user-attachments/assets/a7bbc27d-3469-487b-9311-04dfed61d376)
